@@ -1,19 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stule.css">
+    <title>Инструменты и оборудование</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-<div class="q">
-    
-<h1>Tools and equipment</h1>
-
-
-
+    <div class="каталог">
+        <h1>Инструменты и оборудование</h1>
+        <div class="панель-фильтров">
+            <label for="цена-от">Цена от:</label>
+            <input type="number" id="цена-от" placeholder="Введите цену">
+            <button class="кнопка-фильтра">Только скидки</button>
+            <select>
+                <option selected disabled>По умолчанию</option>
+                <option>От дешевых к дорогим</option>
+                <option>От дорогих к дешевым</option>
+            </select>
+        </div>
+        <div class="товары">
+            <!-- Первая карточка -->
+            <div class="карточка">
+                <div class="скидка">+17%</div>
+                <img src="https://avatars.mds.yandex.net/get-mpic/2008488/img_id8112907519477390168.jpeg/9hq" alt="Секатор">
+                <button class="добавить-в-корзину">Добавить в корзину</button>
+                <div class="инфо-товара">
+                    <p>Секатор</p>
+                    <p class="цена">$199</p>
+                    <del>$240</del>
+                </div>
+            </div>
+            
+            <!-- Вторая карточка -->
+            <div class="карточка">
+                <div class="скидка">-26%</div>
+                <img src="https://cdn.vseinstrumenti.ru/images/goods/ruchnoj-instrument/nozhovki/14440247/1000x1000/169135745.jpg" alt="Садовая пила">
+                <button class="добавить-в-корзину">Добавить в корзину</button>
+                <div class="инфо-товара">
+                    <p>Садовая пила</p>
+                    <p class="цена">$26</p>
+                    <del>$35</del>
+                </div>
+            </div>
+            
+            <!-- Третья карточка -->
+            <div class="карточка">
+                <div class="скидка">-36%</div>
+                <img src="https://cdn1.ozone.ru/s3/multimedia-s/6069405616.jpg" alt="Перчатки рабочие">
+                <button class="добавить-в-корзину">Добавить в корзину</button>
+                <div class="инфо-товара">
+                    <p>Перчатки рабочие</p>
+                    <p class="цена">$9</p>
+                    <del>$14</del>
+                </div>
+            </div>
+            
+            <!-- Четвёртая карточка -->
+            <div class="карточка">
+                <div class="скидка">+18%</div>
+                <img src="https://avatars.mds.yandex.net/i?id=a42cf3b210f739f59ba7d5ba19f90203_l-10414794-images-thumbs&n=13" alt="Ножовка садовая">
+                <button class="добавить-в-корзину">Добавить в корзину</button>
+                <div class="инфо-товара">
+                    <p>Ножовка садовая</p>
+                    <p class="цена">$155</p>
+                    <del>$120</del>
+                </div>
+            </div>
+            
+            <!-- Пятая карточка -->
+            <div class="карточка">
+                <div class="скидка">+17%</div>
+                <img src="https://img.freepik.com/premium-photo/shovel-3d-model_1056546-559.jpg?semt=ais_incoming&w=740&q=80" alt="Лопата садовая">
+                <button class="добавить-в-корзину">Добавить в корзину</button>
+                <div class="инфо-товара">
+                    <p>Лопата садовая</p>
+                    <p class="цена">$180</p>
+                    <del>$210</del>
+                </div>
+            </div>
+            
+            <!-- Шестая карточка -->
+            <div class="карточка">
+                <div class="скидка">+18%</div>
+                <img src="https://img.freepik.com/premium-vector/medical-thermometer-cartoon-vector-flat-design-isolated-white-background_860056-764.jpg" alt="Термометр уличный">
+                <button class="добавить-в-корзину">Добавить в корзину</button>
+                <div class="инфо-товара">
+                    <p>Термометр уличный</p>
+                    <p class="цена">$98</p>
+                    <del>$80</del>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
